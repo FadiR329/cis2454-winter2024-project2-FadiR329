@@ -1,6 +1,7 @@
 <?php
 
 try {
+    require_once 'utility/ensure_logged_in.php';
     require_once 'models/database.php';
     require_once 'models/stocks.php';
 
